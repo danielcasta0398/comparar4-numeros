@@ -52,6 +52,7 @@ const comparar4 = (event) => {
   const numero3 = parseFloat(document.getElementById("numero3").value);
   const numero4 = parseFloat(document.getElementById("numero4").value);
 
+  console.log(numero1);
     
   if (isNaN(numero1) || isNaN(numero2)) {
     const p = document.createElement("p");
@@ -64,10 +65,10 @@ const comparar4 = (event) => {
     setTimeout(() => {
       p.remove();
     }, 5 * 1000);
+
   }
 
-
-  if (numero1 > numero2) {
+  if ((numero1 > numero2) ) {
     const p = document.createElement("p");
     p.innerHTML = `El numero mayor es <strong>${numero1}</strong> y el menor es <strong>${numero2}</strong>`;
     document.querySelector("#resultado").insertAdjacentElement("afterend", p);
@@ -76,7 +77,9 @@ const comparar4 = (event) => {
     }, 10 * 1000);
 
     resetValue();
-  } else {
+  } 
+  
+  if((numero2 > numero1)){
     const p = document.createElement("p");
     p.innerHTML = `El numero mayor es <strong>${numero2}</strong> y el menor es <strong>${numero1}</strong>`;
     document.querySelector("#resultado").insertAdjacentElement("afterend", p);
@@ -86,6 +89,7 @@ const comparar4 = (event) => {
       location.reload();
     }, 10 * 1000);
   }
+
 
 
   //El numero mayor es el 1 y el menor el 4
