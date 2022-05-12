@@ -12,7 +12,7 @@ body{
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    background-color: #33E0FF;
+    background-color: #6692FF;
     font-family: 'Roboto', sans-serif;
 }
 
@@ -41,12 +41,12 @@ form div{
 
 button{
   backface-visibility: hidden;
-  background-color: #405cf5;
+  background-color: #FFD366;
   border-radius: 6px;
   border-width: 0;
   box-shadow: rgba(50, 50, 93, .1) 0 0 0 1px inset,rgba(50, 50, 93, .1) 0 2px 5px 0,rgba(0, 0, 0, .07) 0 1px 1px 0;
   box-sizing: border-box;
-  color: #fff;
+  color: black;
   cursor: pointer;
   font-family: -apple-system,system-ui,"Segoe UI",Roboto,"Helvetica Neue",Ubuntu,sans-serif;
   font-size: 100%;
@@ -71,9 +71,7 @@ button:disabled {
   cursor: default;
 }
 
-button:focus {
-  box-shadow: rgba(50, 50, 93, .1) 0 0 0 1px inset, rgba(50, 50, 93, .2) 0 6px 15px 0, rgba(0, 0, 0, .1) 0 2px 2px 0, rgba(50, 151, 211, .3) 0 0 0 4px;
-}
+
 
 input{
     border: none;
@@ -120,6 +118,7 @@ p{
 @media (max-width : 450px){
     h1{
         font-size: 16px;
+        width: 65%;
     }
 
     input{
@@ -132,5 +131,8 @@ p{
 
     form{
         width: 85%;
+    }
+    p{
+        width: 80%;
     }
 }
