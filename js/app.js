@@ -57,7 +57,7 @@ const comparar4 = (event) => {
   if (numero1 > numero2 && numero1 > numero3 && numero1 > numero4) {
     if (numero2 > numero3 && numero2 > numero4) {
       if (numero3 > numero4) {
-        console.log(`El numero mayor es ${numero1} y el menor es ${numero4}`);
+        
         const p = document.createElement("p");
         p.innerHTML = `El numero mayor es <strong>${numero1}</strong> y el menor es <strong>${numero4}</strong>`;
         document
@@ -68,18 +68,35 @@ const comparar4 = (event) => {
             location.reload();
           }, 10 * 1000);
         }  
-      }
+      
     }
 
     if (numero2 > numero3 && numero2 > numero4) {
-      if (numero4 > numero3) {
-        console.log(`El numero mayor es ${numero1} y el menor es ${numero3}`);
+      if (numero4 > numero3) {        
+        const p = document.createElement("p");
+        p.innerHTML = `El numero mayor es <strong>${numero1}</strong> y el menor es <strong>${numero3}</strong>`;
+        document
+          .querySelector("#resultado")
+          .insertAdjacentElement("afterend", p);
+
+          setTimeout(() => {
+            location.reload();
+          }, 10 * 1000);
+        
       }
     }
 
     if (numero3 > numero2 && numero3 > numero4) {
-      if (numero2 > numero4) {
-        console.log(`El numero mayor es ${numero1} y el menor es ${numero4}`);
+      if (numero2 > numero4) {        
+        const p = document.createElement("p");
+        p.innerHTML = `El numero mayor es <strong>${numero1}</strong> y el menor es <strong>${numero4}</strong>`;
+        document
+          .querySelector("#resultado")
+          .insertAdjacentElement("afterend", p);
+
+          setTimeout(() => {
+            location.reload();
+          }, 10 * 1000);
       }
     }
   }
@@ -88,20 +105,44 @@ const comparar4 = (event) => {
 
   if (numero2 > numero1 && numero2 > numero3 && numero2 > numero4) {
     if (numero1 > numero3 && numero1 > numero4) {
-      if (numero3 > numero4) {
-        console.log(`El numero mayor es ${numero2} y el menor es ${numero4}`);
+      if (numero3 > numero4) {        
+        const p = document.createElement("p");
+        p.innerHTML = `El numero mayor es <strong>${numero2}</strong> y el menor es <strong>${numero4}</strong>`;
+        document
+          .querySelector("#resultado")
+          .insertAdjacentElement("afterend", p);
+
+          setTimeout(() => {
+            location.reload();
+          }, 10 * 1000);
       }
     }
 
     if (numero3 > numero1 && numero3 > numero4) {
-      if (numero4 > numero1) {
-        console.log(`El numero mayor es ${numero2} y el menor es ${numero1}`);
+      if (numero4 > numero1) {        
+        const p = document.createElement("p");
+        p.innerHTML = `El numero mayor es <strong>${numero2}</strong> y el menor es <strong>${numero1}</strong>`;
+        document
+          .querySelector("#resultado")
+          .insertAdjacentElement("afterend", p);
+
+          setTimeout(() => {
+            location.reload();
+          }, 10 * 1000);
       }
     }
 
     if (numero3 > numero1 && numero3 > numero4) {
-      if (numero1 > numero4) {
-        console.log(`El numero mayor es ${numero2} y el menor es ${numero4}`);
+      if (numero1 > numero4) {        
+        const p = document.createElement("p");
+        p.innerHTML = `El numero mayor es <strong>${numero2}</strong> y el menor es <strong>${numero4}</strong>`;
+        document
+          .querySelector("#resultado")
+          .insertAdjacentElement("afterend", p);
+
+          setTimeout(() => {
+            location.reload();
+          }, 10 * 1000);
       }
     }
   }
@@ -111,19 +152,45 @@ const comparar4 = (event) => {
   if (numero3 > numero1 && numero3 > numero2 && numero3 > numero4) {
     if (numero1 > numero2 && numero1 > numero4) {
       if (numero2 > numero4) {
-        console.log(`El numero mayor es ${numero3} y el menor es ${numero4}`);
+        
+        const p = document.createElement("p");
+        p.innerHTML = `El numero mayor es <strong>${numero3}</strong> y el menor es <strong>${numero4}</strong>`;
+        document
+          .querySelector("#resultado")
+          .insertAdjacentElement("afterend", p);
+
+          setTimeout(() => {
+            location.reload();
+          }, 10 * 1000);
       }
     }
 
     if (numero1 > numero2 && numero1 > numero4) {
       if (numero4 > numero2) {
-        console.log(`El numero mayor es ${numero3} y el menor es ${numero2}`);
+        
+        const p = document.createElement("p");
+        p.innerHTML = `El numero mayor es <strong>${numero3}</strong> y el menor es <strong>${numero2}</strong>`;
+        document
+          .querySelector("#resultado")
+          .insertAdjacentElement("afterend", p);
+
+          setTimeout(() => {
+            location.reload();
+          }, 10 * 1000);
       }
     }
 
     if (numero2 > numero1 && numero2 > numero4) {
-      if (numero2 > numero4) {
-        console.log(`El numero mayor es ${numero3} y el menor es ${numero4}`);
+      if (numero2 > numero4) {        
+        const p = document.createElement("p");
+        p.innerHTML = `El numero mayor es <strong>${numero3}</strong> y el menor es <strong>${numero4}</strong>`;
+        document
+          .querySelector("#resultado")
+          .insertAdjacentElement("afterend", p);
+
+          setTimeout(() => {
+            location.reload();
+          }, 10 * 1000);
       }
     }
   }
@@ -132,26 +199,60 @@ const comparar4 = (event) => {
 
   if (numero4 > numero1 && numero4 > numero2 && numero4 > numero3) {
     if (numero2 > numero1 && numero2 > numero3) {
-      if (numero3 > numero1) {
-        console.log(`El numero mayor es ${numero4} y el menor es ${numero1}`);
+      if (numero3 > numero1) {        
+        const p = document.createElement("p");
+        p.innerHTML = `El numero mayor es <strong>${numero4}</strong> y el menor es <strong>${numero1}</strong>`;
+        document
+          .querySelector("#resultado")
+          .insertAdjacentElement("afterend", p);
+
+          setTimeout(() => {
+            location.reload();
+          }, 10 * 1000);
       }
     }
 
     if (numero1 > numero2 && numero1 > numero3) {
-      if (numero2 > numero3) {
-        console.log(`El numero mayor es ${numero4} y el menor es ${numero3}`);
+      if (numero2 > numero3) {        
+        const p = document.createElement("p");
+        p.innerHTML = `El numero mayor es <strong>${numero4}</strong> y el menor es <strong>${numero3}</strong>`;
+        document
+          .querySelector("#resultado")
+          .insertAdjacentElement("afterend", p);
+
+          setTimeout(() => {
+            location.reload();
+          }, 10 * 1000);
       }
     }
 
     if (numero3 > numero1 && numero3 > numero2) {
       if (numero1 > numero2) {
-        console.log(`El numero mayor es ${numero4} y el menor es ${numero2}`);
+        
+        const p = document.createElement("p");
+        p.innerHTML = `El numero mayor es <strong>${numero4}</strong> y el menor es <strong>${numero2}</strong>`;
+        document
+          .querySelector("#resultado")
+          .insertAdjacentElement("afterend", p);
+
+          setTimeout(() => {
+            location.reload();
+          }, 10 * 1000);
       }
     }
 
     if (numero3 > numero1 && numero3 > numero2) {
       if (numero3 > numero1) {
-        console.log(`El numero mayor es ${numero4} y el menor es ${numero1}`);
+       
+        const p = document.createElement("p");
+        p.innerHTML = `El numero mayor es <strong>${numero4}</strong> y el menor es <strong>${numero1}</strong>`;
+        document
+          .querySelector("#resultado")
+          .insertAdjacentElement("afterend", p);
+
+          setTimeout(() => {
+            location.reload();
+          }, 10 * 1000);
       }
     }
   }
