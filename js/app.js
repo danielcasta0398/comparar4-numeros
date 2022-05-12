@@ -63,6 +63,11 @@ const comparar4 = (event) => {
         document
           .querySelector("#resultado")
           .insertAdjacentElement("afterend", p);
+
+          setTimeout(() => {
+            location.reload();
+          }, 10 * 1000);
+        }  
       }
     }
 
