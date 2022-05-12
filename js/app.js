@@ -83,9 +83,9 @@ const comparar4 = (event) => {
     const p = document.createElement("p");
     p.innerHTML = `El numero mayor es <strong>${numero2}</strong> y el menor es <strong>${numero1}</strong>`;
     document.querySelector("#resultado").insertAdjacentElement("afterend", p);
-    resetValue();
+    
 
-    setTimeout(() => {
+      setTimeout(() => {
       location.reload();
     }, 10 * 1000);
   }
