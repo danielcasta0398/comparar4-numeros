@@ -135,4 +135,8 @@ p{
     p{
         width: 80%;
     }
+
+    #error{
+        width: 80%;
+    }
 }
